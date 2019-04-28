@@ -1,0 +1,96 @@
+<html>
+<head>
+	<title>Contact Us</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<style>
+	
+/* Concept three class selector targets a single unique element in the HTML file*/	
+
+	.blue {
+		color: Blue;
+	}
+	
+/* Concept four element specific id selector targets a single unique element in the HTML file*/
+
+	h1#form-header, p.status, p.information {
+		color: Green;
+		font-weight: bold;
+	}
+	
+/* Concept five class selector - element specific */
+
+	p.error {
+		color: Red;
+	}
+
+/* Concept six group selectors in the HTML file*/
+
+	.status {
+	    padding: 5px;
+	    margin: 5px;
+	    border-width: 1px;
+	    border-style: solid;
+	}
+
+	.location {
+	    color: Red;
+	    border-color: Maroon;
+	}
+
+	.Information {
+	    color: Blue;
+	    border-color: Navy;
+	}
+
+</style>
+
+</head>
+
+<body>
+
+	<h1 id='form-header'>Contact Us</h1>
+		<form>
+
+			<p class="status information">
+			<label><b>Name</b>
+			<input type="text" name="customer_name" required>
+			</label> 
+			</p>
+
+			<p class="status error">
+			<label><b>Phone</b>
+			<input type="tel" name="phone_number">
+			</label>
+			</p>
+
+			<p>
+			<label><b>Email</b>
+			<input type="email" name="email_address">
+			</label>
+			</p>
+	
+							
+			<p>
+			<label>Location
+			<select id="pickup_place" name="pickup_place">
+			<option value="" selected="selected">Select One</option>
+			<option value="NL" >North London</option>
+			<option value="Byron" >Central</option>
+			<option value="CW" >South London</option>
+			</select>
+			</label> 
+			</p>
+
+	
+			<p>
+			<label>Information
+			<textarea name="comments" maxlength="500"></textarea>
+			</label>
+			</p>
+
+			<p><button>Submit Form</button></p>
+
+		</form>
+	</body>
+</html>
