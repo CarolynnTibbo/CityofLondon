@@ -2,6 +2,7 @@ body {
 	font: 18px/1.4 Georgia, sans-serif;
 	margin: 40px;
 }
+/* Concept eight grid for cityhall page ( had issue with grid template columns, grid gap, and grid rows not displaying*/
 
 .wrapper {
   display: grid;
@@ -223,7 +224,7 @@ section img {
 
 aside {
 	float: left;
-	width: 35%;
+	width: 46%;
 	border: 1px solid black;
 	border-radius: 25px;
 	padding: 10px 10px 10px 10px;

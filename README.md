@@ -42,4 +42,5 @@ CSS-GitHub Final Exam Project
 
 14 - Concept fourteen Transition and Transform within the style attribute index.html file
 
-15 - Concept eight adding css tags for display grid to the layout.css page (part of concept eight)
+15 - Concept eight adding css tags for display grid to the layout.css page 
+(part of concept eight had issue with the grid displaying on the cityhall page sent email for help on Friday afternoon.)
